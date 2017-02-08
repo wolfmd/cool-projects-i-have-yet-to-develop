@@ -1,0 +1,8 @@
+Name: Virtual Reality Packet/Network Analysis
+Ideator: Michael Wolf
+Overview: A piece of VR software that would allow for the visual display and reactive manipulation of packets, their routes through a graph of a network, and the opening and inspection of their contents through hand motions. Kinda like Gibsonizing Wireshark.
+
+Notes:
+- Ideally reads in a pcap file and assembles a network graph with links representing requests
+- Requests can be selected and opened in a way natural to humans unrolling a scroll
+- Upon opening, the packet is displayed as a sort of sheet of paper with the headers at the top and the contents at the bottom.
