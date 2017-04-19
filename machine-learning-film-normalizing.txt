@@ -1,0 +1,7 @@
+**Name:** Machine Learning Film Normalization 
+**Ideator:** Michael Wolf
+**Overview:** As an amateur achivist of 8 and 16mm film, my present solution (and my only solution as strictly a hobbyist) is to use a camera to record the film's projection. This can lead to a loss of color, clarity, and brightness as well as a host of other issues including halos around white objects and interlace issues. While many of these can be solved through manual filters and adjustments, this project would utilize techniques in image recognition to automatically adjust the various issues with the recorded films 
+
+**Notes:**
+- A lot of work has already been done using open source tools to improve interlace issues: http://www.thebattles.net/video/8mm_restoration.html
+- The use of a telecine may yield better results than any algorithm. http://www.super-8.be/s8_Eindex.htm
