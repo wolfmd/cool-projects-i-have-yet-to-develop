@@ -1,0 +1,18 @@
+**Name:** Image Recognition of Midcentury Photos + Geneology
+**Ideator:** Michael Wolf + Jack Cox
+**Overview:** After a talk on image recognition API's given by Jack Cox at Stir 
+Trek 2017, I was inspired to develog a program to sort my archives with tags, a 
+concept I had previously tried to do using manual techniques. Upon asking about
+the use of image recognition systems in this domain, Jack Cox had mentioned a 
+novel idea of using facial recognition to find family likeness. This would be 
+incredibly cool but it's definitely over my head. Apparently a couple of these 
+systems have existed, but it would be amazing to combine TensorFlow to the 
+problem. 
+
+**Notes:**
+- It would probably be better to train my own model based on photos I tag rather
+  than use systems trained on clear, modern photos.
+- TensorFlow would work well.
+- An early step could be simple cropping of photos
+- There's a udacity course on ML
+- https://worldwidegenealogy.blogspot.com/2014/07/genealogy-csi-style-facial-recognition.html
