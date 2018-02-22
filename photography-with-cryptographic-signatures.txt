@@ -1,0 +1,16 @@
+**Name:** Cryptographic Verification of Photos
+**Ideator:** Michael Wolf + Probably A Lot Of People 
+**Overview:** With the rise of easily doctored photos, videos and audio, it has become
+increasingly important to validate the source of images and the material that they contain.
+One idea would be to use cryptographic signatures to identify the source device, location, time,
+etc of a photo. This could be accomplished through using a manufacturer or a user's private key
+which encodes the photo before it is uploaded (along with the public key-- automatically, I would
+imagine) to a particular platform. The platform is able to verify the photo's metadata and list it
+as a verified piece of media
+
+**Notes:**
+- It would probably stack nicely with a blockchain solution
+- What is the optimal encryption paradigm?
+- This would run into issues when malicious users falsify data but could be restricted to a certain
+  degree by limiting the device of origin somehow
+- Spoofing is still quite possible (and likely)
